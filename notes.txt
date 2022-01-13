@@ -1,0 +1,4 @@
+Конвертация шаблона в py
+    pyuic5 name.ui -o name.py
+
+Не забываем подключить наши таблицы MyTableWidget.py
