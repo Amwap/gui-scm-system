@@ -27,7 +27,7 @@
     ],
     "login":{
         "user":"password",
-        "":""
+        "admin":"admin"
     }
 
 }
