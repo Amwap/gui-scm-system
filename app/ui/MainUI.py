@@ -9,7 +9,7 @@
 
 
 from PyQt5 import QtCore, QtGui, QtWidgets
-from Ui.MyTableWidget import TableWidget
+from app.ui.MyTableWidget import TableWidget
 
 
 class Ui_MainWindow(object):

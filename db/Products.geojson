@@ -1,0 +1,16 @@
+{
+"type": "FeatureCollection",
+"name": "Products",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "name": "Dark Rock Pro TR4 ", "code": "BK023" }, "geometry": null },
+{ "type": "Feature", "properties": { "name": "Dark Base Pro 900 ", "code": "BGW14" }, "geometry": null },
+{ "type": "Feature", "properties": { "name": "Pure Power 11 700 Вт CM ", "code": "BN299" }, "geometry": null },
+{ "type": "Feature", "properties": { "name": "Pure Power 11 700 Вт ", "code": "BN295" }, "geometry": null },
+{ "type": "Feature", "properties": { "name": "Pure Rock Slim ", "code": "BK008" }, "geometry": null },
+{ "type": "Feature", "properties": { "name": "Dark Rock 4 ", "code": "BK021" }, "geometry": null },
+{ "type": "Feature", "properties": { "name": "System Power 9 500 Вт CM ", "code": "BN301" }, "geometry": null },
+{ "type": "Feature", "properties": { "name": "Pure Power 10 600 Вт CM ", "code": "BN278" }, "geometry": null },
+{ "type": "Feature", "properties": { "name": "", "code": "" }, "geometry": null }
+]
+}

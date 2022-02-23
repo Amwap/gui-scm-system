@@ -2,7 +2,7 @@
 
 import peewee
 from peewee import fn
-from DataBase.Models import *
+from app.models import *
 from datetime import timedelta
 from playhouse.shortcuts import model_to_dict
 import re

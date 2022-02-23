@@ -1,0 +1,16 @@
+{
+"type": "FeatureCollection",
+"name": "Users",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "name": "Новиков Андрей", "address": "", "comment": "", "change_date": "11.05.2021 02:04", "remind_date": "2021\/05\/11 02:04:00", "remind_is_have": 0 }, "geometry": null },
+{ "type": "Feature", "properties": { "name": "Николаев Иван", "address": "Москва ", "comment": "", "change_date": "11.05.2021 02:04", "remind_date": "2021\/05\/11 02:04:00", "remind_is_have": 0 }, "geometry": null },
+{ "type": "Feature", "properties": { "name": "Alex Morvicool", "address": "", "comment": "", "change_date": "11.05.2021 02:04", "remind_date": "2021\/05\/11 02:04:00", "remind_is_have": 0 }, "geometry": null },
+{ "type": "Feature", "properties": { "name": "Иванов Иван Иванович", "address": "Нур-султан", "comment": "", "change_date": "11.05.2021 02:04", "remind_date": "2021\/05\/11 02:04:21.622", "remind_is_have": 0 }, "geometry": null },
+{ "type": "Feature", "properties": { "name": "Захаров Андрей", "address": "Москва", "comment": "", "change_date": "11.05.2021 02:04", "remind_date": "2021\/05\/11 02:04:21.750", "remind_is_have": 0 }, "geometry": null },
+{ "type": "Feature", "properties": { "name": "", "address": "", "comment": "", "change_date": "11.05.2021 16:49", "remind_date": "2021\/05\/11 16:49:31.299", "remind_is_have": 0 }, "geometry": null },
+{ "type": "Feature", "properties": { "name": "", "address": "", "comment": "", "change_date": "11.05.2021 16:50", "remind_date": "2021\/05\/11 16:50:37.045", "remind_is_have": 0 }, "geometry": null },
+{ "type": "Feature", "properties": { "name": "Николаев Иван", "address": "Москва ", "comment": "", "change_date": "11.05.2021 16:50", "remind_date": "2021\/05\/11 16:50:48.360", "remind_is_have": 0 }, "geometry": null },
+{ "type": "Feature", "properties": { "name": "", "address": "", "comment": "", "change_date": "13.06.2021 20:23", "remind_date": "2021\/06\/13 20:23:49.160", "remind_is_have": 0 }, "geometry": null }
+]
+}

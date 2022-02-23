@@ -1,23 +1,24 @@
 #coding: utf-8
-
-import sys
-from PyQt5 import QtCore, QtGui, QtWidgets
-from Ui import LoginUI, MainUI, ProfileUI, TicketUI
-from DataBase.DbMethods import *
+from configparser import ConfigParser
 import datetime
-import os
 import json
 import logging
+import os
 import re
+import sys
+from pprint import pprint
+
 import xlrd
-from  pprint import pprint
+from PyQt5 import QtCore, QtGui, QtWidgets
 
-logging.basicConfig(level=logging.INFO, handlers=[logging.FileHandler("program.log"), logging.StreamHandler()])
-
+from app.db_methods import *
+from app.ui import LoginUI, MainUI, ProfileUI, TicketUI
+from app.settings import *
 db = DB()
 
 class Main(object):
     def __init__(self):
+        # self.config = ConfigParser.read('data/config.ini')
         self.directory = f"{os.getcwd()}\\data\\Tickets\\None"
         self.basketPath = f"{os.getcwd()}\\data\\Basket"
         self.configPath = f"{os.getcwd()}\\data\\config.json"
@@ -244,7 +245,6 @@ class Main(object):
 
     def setDeadlines(self, ui):
         data = db.getDataForDeadline()
-        pprint(data)
         # data = [(self.getStrped(self.getStrfed(i[0])), i[1], i[2]) for i in data]
 
         # tickets = db.getTicketsByDeadline()
@@ -440,7 +440,6 @@ class Main(object):
             if string == None: return datetime.datetime.now()
             else: return datetime.datetime.strptime(string, '%d.%m.%Y %H:%M')
         except:  
-            print('returned datetime')
             return string
 
     def getStrpedDate(self, string=None):
@@ -665,9 +664,7 @@ class Main(object):
 
 if __name__ == "__main__":
     app = QtWidgets.QApplication(sys.argv)
-    logging.info('start application')
     mainobj = Main()
-    logging.info('exit from application')
     sys.exit(app.exec_())
 
     
